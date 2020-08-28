@@ -13,7 +13,7 @@ mongoose.connect(`mongodb://mongo:27017/multistage`,{ useNewUrlParser : true ,us
      console.log("MongoDB Connected Successfully");
 
      app.get('/',(req,res) => {
-        res.send("Can ansible allow CI/CD? ");
+        res.send("Can ansible allow CI/CD V2? ");
      })
 
      app.use('/user',userRoutes);
