@@ -3,7 +3,7 @@ version: "3"
 services: 
   app:
     container_name: app
-    image: pilgrim2go/node-multistage-docker
+    image: pilgrim2go/node-multistage-docker2
     restart: always
     build: .
     environment: 
