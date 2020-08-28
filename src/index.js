@@ -13,7 +13,7 @@ mongoose.connect(`mongodb://mongo:27017/multistage`,{ useNewUrlParser : true ,us
      console.log("MongoDB Connected Successfully");
 
      app.get('/',(req,res) => {
-        res.send("Home Route. Chào các bạn NC. Rất vui vì các bạn đã đến được bước. Tada ");
+        res.send("Home Route. Chào các bạn NC. Rất vui vì các bạn đã đến được bước. Tada. But am I in cloud???? ");
      })
 
      app.use('/user',userRoutes);
